@@ -1,13 +1,96 @@
-Data set names for tables:
-featureNames = Data Frame containing the features.txt data
-activityLabels = Data Frame containing the activity_labels.txt data
-testSubjectsData  = Data Frame containing the test subject_test.txt data
-testData = Data Frame containing the test X_test.txt data
-testActivitiesData  = Data Frame containing the test y_test.txt data
-trainSubjectsData  = Data Frame containing the training subject_train.txt data
-trainData  =Data Frame containing the training X_train.txt data
-trainActivitiesData  = Data Frame containing the training y_train.txt data
-toMatch = Vector containing the string used to pull out the standard deviation and the mean
-stdMeanLevels = Numeric  vector used to identify just the columns needed to pull out the standard deviation and the mean
-mergedTestTrain = Data Frame containing the merged test and training data sets
-finalTidyMerged = Data Frame containing the standard deviation and mean data
+gettingcleaningdata
+
+Information for tidy.txt:
+
+Modifiers: 
+  subject = ID of the subject 
+  activity = Activity performed for the correcponding measurements
+
+Activity Names Measured: 
+    tBodyAccMeanX
+    tBodyAccMeanY
+    tBodyAccMeanZ
+    tBodyAccStdX
+    tBodyAccStdY
+    tBodyAccStdZ
+    tGravityAccMeanX
+    tGravityAccMeanY
+    tGravityAccMeanZ
+    tGravityAccStdX
+    tGravityAccStdY
+    tGravityAccStdZ
+    tBodyAccJerkMeanX
+    tBodyAccJerkMeanY
+    tBodyAccJerkMeanZ
+    tBodyAccJerkStdX
+    tBodyAccJerkStdY
+    tBodyAccJerkStdZ
+    tBodyGyroMeanX
+    tBodyGyroMeanY
+    tBodyGyroMeanZ
+    tBodyGyroStdX
+    tBodyGyroStdY
+    tBodyGyroStdZ
+    tBodyGyroJerkMeanX
+    tBodyGyroJerkMeanY
+    tBodyGyroJerkMeanZ
+    tBodyGyroJerkStdX
+    tBodyGyroJerkStdY
+    tBodyGyroJerkStdZ
+    tBodyAccMagMean
+    tBodyAccMagStd
+    tGravityAccMagMean
+    tGravityAccMagStd
+    tBodyAccJerkMagMean
+    tBodyAccJerkMagStd
+    tBodyGyroMagMean
+    tBodyGyroMagStd
+    tBodyGyroJerkMagMean
+    tBodyGyroJerkMagStd
+    fBodyAccMeanX
+    fBodyAccMeanY
+    fBodyAccMeanZ
+    fBodyAccStdX
+    fBodyAccStdY
+    fBodyAccStdZ
+    fBodyAccMeanFreqX
+    fBodyAccMeanFreqY
+    fBodyAccMeanFreqZ
+    fBodyAccJerkMeanX
+    fBodyAccJerkMeanY
+    fBodyAccJerkMeanZ
+    fBodyAccJerkStdX
+    fBodyAccJerkStdY
+    fBodyAccJerkStdZ
+    fBodyAccJerkMeanFreqX
+    fBodyAccJerkMeanFreqY
+    fBodyAccJerkMeanFreqZ
+    fBodyGyroMeanX
+    fBodyGyroMeanY
+    fBodyGyroMeanZ
+    fBodyGyroStdX
+    fBodyGyroStdY
+    fBodyGyroStdZ
+    fBodyGyroMeanFreqX
+    fBodyGyroMeanFreqY
+    fBodyGyroMeanFreqZ
+    fBodyAccMagMean
+    fBodyAccMagStd
+    fBodyAccMagMeanFreq
+    fBodyBodyAccJerkMagMean
+    fBodyBodyAccJerkMagStd
+    fBodyBodyAccJerkMagMeanFreq
+    fBodyBodyGyroMagMean
+    fBodyBodyGyroMagStd
+    fBodyBodyGyroMagMeanFreq
+    fBodyBodyGyroJerkMagMean
+    fBodyBodyGyroJerkMagStd
+    fBodyBodyGyroJerkMagMeanFreq
+
+Activity Labels: 
+  Value 1: WALKING: subject was walking during the test 
+  Value 2: WALKING_UPSTAIRS: subject was walking upstairs during the test
+  Value 3: WALKING_DOWNSTAIRS: subject was walking downstairs during the test
+  Value 4: SITTING: subject was sitting during the test  
+  Value 5: STANDING: subject was standing during the test  
+  Value 6: LAYING: subject was laying down during the testData set names 
